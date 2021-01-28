@@ -19,7 +19,7 @@ func (api APIHandlers) GetBanners(c *gin.Context) {
 	resourceUrl := fmt.Sprintf("%s://%s/resource", reqSchema, c.Request.Host)
 
 	createdAt, _ := time.Parse("2006-01-02 15:04:05", "2019-02-26 08:31:40")
-	updatedAt, _ := time.Parse("2006-01-02 15:04:05", "22020-01-07 08:19:29")
+	updatedAt, _ := time.Parse("2006-01-02 15:04:05", "2020-01-07 08:19:29")
 
 	banners := []Banner{
 		{
